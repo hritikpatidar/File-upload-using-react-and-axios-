@@ -33,7 +33,7 @@ export default function Fileuplode() {
 
         console.log('file upload response ',upload_response)
         if(upload_response.status ===200){
-            swal("Good job!", "file Upload Successfully", "success");
+            swal("Good job!", "File Upload Successfully", "success");
         }
     }
 
