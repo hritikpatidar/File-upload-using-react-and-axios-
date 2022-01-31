@@ -46,7 +46,7 @@ export default function Fileuplode() {
                     <form className="mt-5" onSubmit={ (e)=>{ uplodeImage(e) } }>
                         <div className="mb-5">
                             <label htmlFor='file' className="form-label">Uplode File</label>
-                            <input id='file' type="file" accept="image/*" onChange={ (e)=>{ handaleChange(e.target.files) } } name="files" className="form-label"/>
+                            <input id='file' type="file" accept="image/*" onChange={ (e)=>{ handaleChange(e.target.files) } } name="files" className="form-control"/>
                         </div>
                         <div className="d-grid gap-2">
                             <button type="submit" className="btn btn-primary btn-xl">Submit</button>
